@@ -1,0 +1,12 @@
+:root{--ink:#0E0D0B;--bone:#EDE6D6;--amber:#D39A3C;--muted:#5b564c}
+@media (prefers-color-scheme: dark){:root{--ink:#EDE6D6;--bone:#0E0D0B;--muted:#b9b1a0}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bone);color:var(--ink);font:17px/1.6 Georgia,"Times New Roman",serif}
+main{max-width:680px;margin:0 auto;padding:56px 20px 80px}
+h1{font-size:30px;line-height:1.2;margin:0 0 6px;letter-spacing:.01em}
+h2{font-size:19px;margin:32px 0 6px}
+.kicker{color:var(--amber);text-transform:uppercase;letter-spacing:.14em;font:600 12px/1 system-ui,sans-serif;margin-bottom:14px}
+.muted{color:var(--muted);font-size:15px}
+a{color:var(--amber)}
+nav{margin-top:40px;font:14px system-ui,sans-serif}
+nav a{margin-right:18px}
